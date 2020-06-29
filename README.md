@@ -43,6 +43,7 @@ As principais técnologias utilizadas foram:
     - Ter o [Knex](http://knexjs.org/) (instalar de forma global)
     - Ter o [PostgreSQL](https://www.postgresql.org/)
     - Ter o [MongoDB](https://www.mongodb.com/)
+    - Configure o arquivo env_file dentro da pasta backend, adicone suas informações e altere o nome do arquivo para .env
 
 - #### Faça um clone
 ```sh
@@ -52,7 +53,7 @@ As principais técnologias utilizadas foram:
 - #### Execute os comandos (de preferência na ordem mostrada) 
 
 ```sh
-  #Crie o banco de dados após entrar no postgres
+  # Crie o banco de dados após entrar no postgres
 
   $ CREATE DATABASE knowledge;
 
